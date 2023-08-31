@@ -1,6 +1,11 @@
 def positions(lista):
+    items = []
+
     for i in range(len(lista)):
         if i % 2 == 0:
-            print(lista[i])
+            items.append(lista[i])
 
-positions([0,1,2,4])
+    return items
+
+
+print(positions([0, 1, 2, 4]))

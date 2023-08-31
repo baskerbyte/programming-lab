@@ -1,11 +1,7 @@
 def alfabetica(lista1):
-    lista2 = []
+    lista1.sort()
 
-    for _ in range(len(lista1)):
-        inicio = lista1[0]
+    return lista1
 
-        for j in range(len(lista1)):
-            for k in range(len(inicio)):
-                print(inicio[k])
 
-alfabetica(["aaa", "bbb"])
+print(alfabetica(["aaa", "ccc", "bbb", "eee", "vvv"]))

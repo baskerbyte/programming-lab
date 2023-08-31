@@ -16,4 +16,5 @@ def merge(lista1, lista2):
 
     return lista3
 
+
 print(merge(["a", "b", "c"], [1, 2, 3, 4, 5, 6]))
