@@ -4,7 +4,7 @@
 
 
 def encontra_maior(lista):
-    maior = -9999999999999
+    maior = lista[0]
 
     for item in lista:
         if item > maior:

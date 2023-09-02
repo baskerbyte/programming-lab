@@ -3,13 +3,13 @@
 '''
 
 def maior_e_menor(lista):
-    maior = -9999999999999
-    menor = 99999999999999
+    maior = lista[0]
+    menor = lista[0]
 
     for item in lista:
         if item > maior:
             maior = item
-        
+
         if item < menor:
             menor = item
     
